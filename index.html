@@ -2,51 +2,133 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="style.css" />
 	<title>Document</title>
 </head>
 
 <body>
-	<header class='header'>
-		<div class='container'>
-			<span class='logo'>Site name</span>
-			<ul class='navigation'>
-				<li class="home-menu"><a href="">Home</a></li>
-				<li class="about-menu"><a href="">About</a></li>
-				<li class="work-menu"><a href="">Work</a></li>
-				<li class="cabinet-menu"><a href="">Cabinet</a></li>
-			</ul>
-		</div>
-	</header>
-	<main>
-		<div class='container'>
-			<img class='background' src="img/main-pic.png" alt="background picture">
-			<div class='title-content'>
-				<h1>Lorem ipsum dolor sit amet.</h1>
-				<h2>Lorem, ipsum dolor.</h2>
-				<button>Read More</button>
-			</div>
-			<div class='main-content'>
-				<img src="img/ic-chat.png" alt="">
-				<img src="img/ic-crown.png" alt="">
-				<img src="img/ic-pencil.png" alt="">
-				<img src="img/ic-user.png" alt="">
-			</div>
-			<div class='sub-content'>
-				<h3>Lorem, ipsum.</h3>
-				<span>Lorem ipsum dolor, sit amet consectetur adipisicing.</span>
-				<img src="img/photo-1.jpg" alt="" class="sub-main">
-				<img src="img/photo-2.jpg" alt="" class="sub-main">
-				<img src="img/photo-3.jpg" alt="" class="sub-main">
-			</div>
-		</div>
-	</main>
-	<footer class='footer'>
-		<span class='copyright'>Copyright(c)website name.</span>
+	<div class="content">
+		<header class="header">
+			<span class="logo">Site name</span>
 
-	</footer>
+			<ul class="menu">
+				<li class="home"><a href="">Home</a></li>
+				<li class="about"><a href="">About</a></li>
+				<li class="work"><a href="">Work</a></li>
+				<li class="cabinet"><a href="">Cabinet</a></li>
+			</ul>
+		</header>
+
+		<main>
+			<div class="container">
+				<div class="title-content">
+					<h1>Lorem ipsum dolor sit amet.</h1>
+					<span>Lorem, ipsum dolor.</span>
+					<button class="read-more">Read More</button>
+				</div>
+
+				<div class="main-content">
+					<div class="blocks">
+						<div class="first">
+							<img class='color-back' src="img/ic-chat.png" alt="" />
+							<span class='blocks-title'>
+								Lorem ipsum dolor sit amet.
+							</span>
+							<span class='additional-text'>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, voluptates omnis.
+								Quisquam similique harum architecto?
+							</span>
+						</div>
+
+						<div class="second">
+							<img class='color-back' src="img/ic-crown.png" alt="" />
+							<span class='blocks-title'>
+								Lorem ipsum dolor sit amet.
+							</span>
+							<span class='additional-text'>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, voluptates omnis.
+								Quisquam similique harum architecto?
+							</span>
+						</div>
+					</div>
+
+					<div class="blocks">
+						<div class="third">
+							<img class='color-back' src="img/ic-pencil.png" alt="" />
+							<span class='blocks-title'>
+								Lorem ipsum dolor sit amet.
+							</span>
+							<span class='additional-text'>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, voluptates omnis.
+								Quisquam similique harum architecto?
+							</span>
+						</div>
+
+						<div class="fourth">
+							<img class='color-back' src="img/ic-user.png" alt="" />
+							<span class='blocks-title'>
+								Lorem ipsum dolor sit amet.
+							</span>
+							<span class='additional-text'>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, voluptates omnis.
+								Quisquam similique harum architecto?
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="sub-content">
+					<div class="text">
+						<h3>Lorem, ipsum.</h3>
+						<span class='subtitle-text'>Lorem ipsum dolor sit, amet consectetur adipisicing.</span>
+					</div>
+
+
+					<div class="faces">
+						<div class="face image-first">
+							<img src="img/photo-1.jpg" alt="" class="sub-main" />
+							<span class='face-text'>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum,
+								at. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Cum, at.
+							</span>
+							<button class='first-button'>Read more</button>
+						</div>
+
+						<div class="face image-second">
+							<img src="img/photo-2.jpg" alt="" class="sub-main" />
+							<span class='face-text'>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum,
+								at. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Cum, at.
+							</span>
+							<button class='second-button'>Read more</button>
+						</div>
+
+						<div class="face image-third">
+							<img src="img/photo-3.jpg" alt="" class="sub-main" />
+							<span class='face-text'>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum,
+								at. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Cum, at.
+							</span>
+							<button class='third-button'>Read more</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<span class="copyright">Copyright(c)website name.</span>
+		</footer>
+	</div>
 </body>
 
 </html>
